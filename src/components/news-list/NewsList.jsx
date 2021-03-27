@@ -1,7 +1,26 @@
-import React, { useEffect, useState } from 'react';
+import s from './NewsList.module.scss';
 
-const apiUrl = process.env.REACT_APP_API_URL;
+import { News } from '../news/News';
 
 export function NewsList() {
-  // TODO sækja yfirlit fréttaflokka
+
+  return (
+    <div className={s.newslist__container}>
+      <div className={s.newslist__group}>
+        <News group="allar" length={5}/>
+      </div>
+      <div className={s.newslist__group}>
+        <News group="innlent" length={5}/>
+      </div>
+      <div className={s.newslist__group}>
+        <News group="erlent" length={5}/>
+      </div>
+      <div className={s.newslist__group}>
+        <News group="ithrottir" length={5}/>
+      </div>
+      <div className={s.newslist__group}>
+        <News group="menning" length={5}/>
+      </div>
+    </div>
+  );
 }
