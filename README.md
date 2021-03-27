@@ -2,7 +2,7 @@
 
 [Kynning á verkefni](https://youtu.be/EyRD1dVVDiU).
 
-Verkefnið er á ([heroku síðunni ](blblblblbllb))
+Verkefnið er á [heroku síðunni](https://vef2-2021-verk5.herokuapp.com/)
 
 > Útgáfa 0.1
 
